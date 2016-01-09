@@ -1709,8 +1709,11 @@
 		}
 
 	#footer-wrapper {
-		position: relative;
+		position: center;
 		color: #858484;
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
 	}
 
 		#footer-wrapper:before {
