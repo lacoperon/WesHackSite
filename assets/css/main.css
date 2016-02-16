@@ -1282,7 +1282,7 @@
 /* Box */
 
 	.box {
-		background: #ffffff;
+		background: white;
 		border-bottom: solid 1px #ccc;
 	}
 
@@ -1683,7 +1683,7 @@
 
 	#header-wrapper {
 		position: relative;
-		background: #ffffff;
+		background: white;
 		border-bottom: solid 1px #ccc;
 	}
 
@@ -1885,7 +1885,7 @@
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 4.5em 0 4em 0;
+				padding: 1.5em 0 2em 0;
 			}
 
 			#main-wrapper {
@@ -1919,6 +1919,7 @@
 				}
 
 		/* Nav */
+
 
 			#nav > ul {
 				margin: 0;
@@ -2434,7 +2435,7 @@
 				}
 
 				#navPanel .depth-0 {
-					color: #fff;
+					color: black;
 				}
 
 			body.navPanel-visible #page-wrapper {
@@ -2548,3 +2549,8 @@
 				}
 
 	}
+
+
+#hacklogo {
+  width: 25%;
+}
