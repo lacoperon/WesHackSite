@@ -1,5 +1,9 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 @import url("font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Abril+Fatface|Philosopher:400,700,700italic,400italic|Permanent+Marker|Gentium+Book+Basic:400,400italic,700,700italic|Vidaloka|Volkhov:400,400italic,700,700italic");
+
+
+
 
 /*
 	Dopetrope by HTML5 UP
@@ -9,13 +13,26 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h2, h3, h4, h5, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+	}
+
+	h6{
+		font-size: 120%;
+		color:#db2121;
+	}
+	nav{
+		font-family: 'Gentium Book Basic';
+	}
+	h1
+	{
+		font-family: 'Permanent Marker';
+		font-size: 200%;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -43,6 +60,7 @@
 		border-collapse: collapse;
 		border-spacing: 0;
 	}
+
 
 	body {
 		-webkit-text-size-adjust: none;
@@ -1657,7 +1675,7 @@
 	#banner {
         background: #9f1a36;
 		background-image:url("../../images/herobgtiling.png");
-      
+
 		background-position: center center;
 		text-align: center;
 	}
@@ -1676,6 +1694,7 @@
 				color: #d52349;
 				padding: 0;
 				font-style: normal;
+				font-family: 'Gentium Book Basic';
 				margin: 0;
 			}
 
